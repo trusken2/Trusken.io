@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Our Services</h1>
+<section>
+    <h2>Building Materials Sales & Supply</h2>
+    <p>Trusken provides a wide range of building materials, including cement, sand, gravel, and steel rods. Our materials are sourced from trusted suppliers, ensuring the highest quality for your construction projects.</p>
+    <img class="w-50" src="{{ url_for('static', filename='images/building_site.jpg') }}" alt="Building Materials">
+</section>
+
+<section>
+    <h2>Petroleum & Diesel Sales & Supply</h2>
+    <p>We offer a steady and reliable supply of diesel and petrochemical products for industries, businesses, and institutions. Our petroleum products meet international standards for safety and efficiency.</p>
+    <img class="w-50" src="{{ url_for('static', filename='images/course-2.jpg') }}" alt="Petroleum Services">
+</section>
+
+<section>
+    <h2> Haulage & Transportations</h2>
+    <p>Our haulage and transportation service is known for its efficiency and consistency, ensuring on-time delivering and safety of goods. We deliver goods on time at cheapest prices possible.</p>
+    <img class="w-50" src="{{ url_for('static', filename='images/course-1.jpg') }}" alt="Diesel Services">
+</section>
+{% endblock %}
